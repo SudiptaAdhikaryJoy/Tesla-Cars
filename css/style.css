@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align:center;
+}
+
+body{
+    background: url(https://i.insider.com/571fa66add089510618b47b7?width=700);
+    background-attachment: fixed;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.car-1 {
+    text-align: left;
+    border: 10px solid blue;
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: aqua;
+    
+}
+
+ #product-1{
+    text-align: center;
+}
+
+.drink-2{
+
+}
