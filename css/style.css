@@ -155,6 +155,7 @@ h2{
     background-image: linear-gradient(rgb(172, 207, 101), rgb(41, 64, 139));
     box-shadow: 15px 15px 10px rgba(29, 27, 27, 0.582);
     border-radius: 5px;
+    
 
 }
 
@@ -183,5 +184,14 @@ h2{
 .link-button a:active{
     text-decoration: underline;
     
+}
+#tesla{
+    display:display;
+    padding-left: 110px;
+}
+
+#privacy{
+    display:block;
+    padding-left: 850px;
 }
 
