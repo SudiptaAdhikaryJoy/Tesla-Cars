@@ -7,6 +7,12 @@ body{
     background-position:center;
     background-size: cover;
 }
+.nav-bar{
+    overflow:hidden;
+    background-color: rgb(163, 160, 160);
+    opacity: 0.8;
+    margin: 0 auto;
+}
 
 .nav-bar li{
     float: center;
