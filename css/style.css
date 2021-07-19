@@ -1,58 +1,32 @@
+*{
+    margin: 0;
+    
+}
 body{
     font-family: 'Poppins',
     sans-serif;
-    background: url(https://i.insider.com/571fa66add089510618b47b7?width=700);
+    background-image: url("../images/backgroundCar.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position:center;
     background-size: cover;
-}
-.nav-bar{
-    overflow:hidden;
-    background-color: rgb(163, 160, 160);
-    opacity: 0.8;
-    margin: 0 auto;
-}
-
-.nav-bar li{
-    float: center;
-    display:inline-block;
-    padding: 10px 80px;
-    margin: 10px 20px;
-    font-weight: bold;
+    background-attachment: fixed;
     
-
 }
 
+
+/* navigation styles */
+nav{
+    background: rgba(217, 236, 178, 0.521);
+    
+}
+.nav-bar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    
+}
 .nav-bar li a{
     text-decoration: none;
-}
-
-.bar li a:hover{
-    color: hsl(14, 84%, 48%);
 
 }
-
-.bar li a:active{
-    color: hsl(60, 58%, 55%);
-}
-
-
-h1{
-    text-align: center;
-    color: rgb(63, 94, 94);
-}
-
-h2{
-    text-align:center;
-    color: rgb(64, 202, 110);
-    text-decoration: underline;
-    text-decoration-style: dotted solid;
-    text-transform: uppercase;
-    text-decoration-color: cornflowerblue;
-
-}
-
-
 
 
