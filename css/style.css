@@ -59,6 +59,16 @@ nav{
     float: right;
     padding-right: 30px;
 }
+
+.nav-right input[type=text]{
+    padding: 6px;
+    float: right;
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 10px;
+    
+}
 /* css animation text */
 .animated-text{
     color:lime;
