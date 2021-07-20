@@ -27,6 +27,7 @@ nav{
     height: auto;
     padding: 20px;
     top: 0;
+    margin: 0;
     /* position: fixed; */
 }
     
@@ -56,7 +57,36 @@ nav{
     float: right;
     padding-right: 30px;
 }
+/* css animation text */
+.animated-text{
+    color:lime;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: relative;
+    text-align: center;
+    animation: Tesla-Cars 5s linear 2s infinite;
+    padding: 15px;
+    margin: 0px;
+}
 
+@keyframes Tesla-Cars{
+    0% {
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: black;
+    }
+
+    75%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: cadetblue;
+    }
+}
 /* section car */
 .container{
     /* display: flex; */
@@ -65,8 +95,11 @@ nav{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
-    transform: scale(0.8);
-    transition: transform 0.9s ease-in-out;
+   
+}
+.car-container-common{
+     transform: scale(1);
+     transition: transform 0.9s ease-in-out;
 }
 .car-container{
     /* display: grid;
