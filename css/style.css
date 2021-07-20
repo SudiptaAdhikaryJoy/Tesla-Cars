@@ -152,3 +152,19 @@ nav{
     
 }
 
+/* media query */
+@media only screen and (max-width:600px){
+    .nav-right, .nav-bar{
+        float: none;
+        display: block;
+        padding: 0px 10px;
+        width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .animated
+    .nav-right input[type=text]{
+        border: 1px solid #ccc;
+        padding-right: 0px 10px;
+    }
+}
